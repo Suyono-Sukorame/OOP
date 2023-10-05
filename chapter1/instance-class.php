@@ -5,6 +5,9 @@ class Student
 
 }
 
+$student1 = new Student;
+$student2 = new Student;
+
 $classes = get_declared_classes();
 
 echo "Classes: " . implode(', ', $classes) . "<br />";
